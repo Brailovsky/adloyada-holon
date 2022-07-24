@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.rtl.min.css" integrity="sha384-+4j30LffJ4tgIMrq9CwHvn0NjEvmuDCOfk6Rpg2xg7zgOxWWtLtozDEEVvBPgHqE" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css" />
+    <title>עדלאידע חולון</title>
+  </head>
+
+  <body>
+    <div class="d-flex flex-column">
+      <header>
+        <nav class="navbar navbar-expand-md">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="./index.html">
+              <img
+                src="./Media/img/HolonLogo.jpg"
+                alt="Holon_Logo"
+                width="150"
+                height="150"
+              />
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">אודות</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./media.html">גלריה</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./faq.html">שאלות ותשובות</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">צור קשר</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
+    <main>
+      <div class="flex-fill container-md my-5">
+        <h1 class="display-5">חגיגות עדלאידע בעיר חולון</h1>
+        <div id="InfoBlock">
+          <h1 class="display-6">רקע</h1>
+          <p>
+            תהלוכת פורים הגדולה במדינה מתקיימת מידי שנה בעיר חולון והיא מהווה
+            שיאה של פעילות קהילתית וארגונית המתרחשת במהלך השנה ומתעצמת לקראת
+            החג. בתהלוכה, אשר מתמקדת בכל פעם בנושא מרכזי שונה, נוטלים חלק אלפי
+            צועדים, ביניהם: תלמידי בתי הספר בחולון, משתתפי החוגים במרכזים
+            הקהילתיים ובמרכזי התרבות והספורט, להקות של מתעמלים, פעלולנים
+            ואקרובטים, קבוצות מנגנים ורקדנים, קבוצות תיאטרון רחוב, וכמובן מיצגי
+            ענק ססגוניים, המהווים את החלק המרגש והמרשים במיוחד. לצד הצועדים
+            מחולון משתתפים בעדלאידע צועדים אורחים מרחבי הארץ ולעיתים אף מהעולם.
+          </p>
+        </div>
+      </div>
+
+      <!-- Start Carousel-->
+
+      <div class="flex-fill container-md my-5">
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img
+                src="./Media/img/purim1.jpg"
+                class="d-block w-100"
+                alt="purim1"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>ראש עיריית חולון</h5>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="./Media/img/purim2.jpg"
+                class="d-block w-100"
+                alt="purim2"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>תחפושת אדומה</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./Media/img/herzl.jpg"
+                class="d-block w-100"
+                alt="הרצל"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>בובת הרצל</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./Media/img/ben_gurion.jpg"
+                class="d-block w-100"
+                alt="בן גוריון"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>בובת בן גוריון</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./Media/img/wonder_woman.jpg"
+                class="d-block w-100"
+                alt="וונדר וומן"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>וונדר וומן</h5>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!--End Carousel-->
+
+<!-- Sponsor Start -->
+
+      <div class="container sponsor">
+        <h3>השותפים שלנו:</h3>
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: auto">
+              <img
+                src="./Media/img/pizza.jpg"
+                class="card-img-top"
+                alt="pizza"
+              />
+              <div class="card-body">
+                <h6 class="card-title">פיצה תרשיש</h6>
+                <a href="https://www.facebook.com/hillazvia/" class="btn btn-primary">להזמנות</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: auto">
+              <img
+                src="./Media/img/burgeranch.jpg"
+                class="card-img-top"
+                alt="burgeranch"
+              />
+              <div class="card-body">
+                <h6 class="card-title">בורגראנץ'</h6>
+                <a href="https://app.burgeranch.co.il/" class="btn btn-primary">להזמנות</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: auto">
+              <img src="./Media/img/meyeden.jpg" class="card-img-top" alt="meyeden" />
+              <div class="card-body">
+                <h6 class="card-title">מיי עדן</h6>
+                <a href="https://www.meyeden.co.il/" class="btn btn-primary">מידע נוסף</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" style="width: auto">
+              <img src="./Media/img/goldstar.jpg" class="card-img-top" alt="goldstar" />
+              <div class="card-body">
+                <h6 class="card-title">גולדסטאר</h6>
+                <a href="https://he.wikipedia.org/wiki/%D7%92%D7%95%D7%9C%D7%93%D7%A1%D7%98%D7%90%D7%A8" class="btn btn-primary">מידע נוסף</a>
+              </div>
+            </div>
+          </div>
+          <div class="col"><div class="card" style="width: auto">
+            <img src="./Media/img/osem.jpg" class="card-img-top" alt="osem" />
+            <div class="card-body">
+              <h6 class="card-title">אסם</h6>
+              <a href="https://www.osem-nestle.co.il/" class="btn btn-primary">אתר אסם</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<br>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+              <img src="./Media/img/azrieli.jpg" class="card-img-top" alt="עזריאלי">
+              <div class="card-body">
+                <h6 class="card-title">עזריאלי</h6>
+                
+                <a href="https://www.azrieli.com/" class="btn btn-primary">אתר עזריאלי</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+              <img src="./Media/img/spahotel.jpg" class="card-img-top" alt="ספא">
+              <div class="card-body">
+                <h6 class="card-title">ספאט הוטל</h6>
+                <a href="https://www.spathotels.com/" class="btn btn-primary">הזמנת חדר</a>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- Sponsor End -->
+    </main>
+
+
+      <!-- Footer Start -->
+      <footer>
+        <div class="container">
+          <footer class="py-3 my-4">
+            <p class="nav justify-content-center border-bottom pb-3 mb-3">
+              האתר נבנה על ידי דניאל
+            </p>
+            <p class="text-center text-muted">&copy; 2022 כל הזכויות שמורות</p>
+          </footer>
+          <!-- Footer End -->
+
+  </body>
+</html>
